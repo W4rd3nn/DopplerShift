@@ -1,0 +1,33 @@
+
+{
+	"version": 1,
+	"map_name": "Glarp",
+	"map_path": "map_files/glarp",
+	"map_file": "glarp.dmm",
+	"shuttles": {
+		"emergency": "emergency_northstar",
+		"ferry": "ferry_fancy",
+		"cargo": "cargo_northstar",
+		"whiteship": "whiteship_delta"
+	},
+	"space_ruin_levels": 5,
+	"space_empty_levels": 0,
+	"traits": [
+		{
+			"Up": true,
+			"Baseturf": "/turf/open/misc/beach/sand",
+			"Linkage": "Cross"
+		},
+		{
+			"Up": true,
+			"Down": true,
+			"Baseturf": "/turf/open/openspace",
+			"Linkage": "Cross"
+		},
+		{
+			"Down": true,
+			"Baseturf": "/turf/open/openspace",
+			"Linkage": "Cross"
+		}
+	]
+}

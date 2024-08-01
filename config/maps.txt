@@ -52,6 +52,10 @@ map wawastation
 	minplayers 40
 endmap
 
+map glarp
+	votable
+endmap
+
 # Debug-only maps.
 
 map gateway_test
