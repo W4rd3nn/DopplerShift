@@ -21,7 +21,6 @@
 		/obj/machinery/plumbing/liquid_pump,
 		/obj/machinery/plumbing/splitter,
 		/obj/machinery/plumbing/sender,
-		/obj/machinery/plumbing/growing_vat,
 		/obj/machinery/iv_drip/plumbing,
 	)
 	resource_price = list(
@@ -77,9 +76,6 @@
 			/datum/material/iron = SHEET_MATERIAL_AMOUNT * 5,
 		),
 		/obj/machinery/plumbing/sender = list(
-			/datum/material/iron = SHEET_MATERIAL_AMOUNT * 20,
-		),
-		/obj/machinery/plumbing/growing_vat = list(
 			/datum/material/iron = SHEET_MATERIAL_AMOUNT * 20,
 		),
 		/obj/machinery/iv_drip/plumbing = list(

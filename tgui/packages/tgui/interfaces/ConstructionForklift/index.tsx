@@ -1,3 +1,5 @@
+import { Button, Image, Section } from 'tgui/components';
+
 import { useBackend } from '../../backend';
 import { Window } from '../../layouts';
 

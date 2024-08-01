@@ -48,7 +48,7 @@
 		return UI_UPDATE
 	return UI_INTERACTIVE
 
-/obj/vehicle/ridden/forklift/alt_click_secondary(mob/user)
+/obj/vehicle/ridden/forklift/click_alt_secondary(mob/user)
 	if(!user.Adjacent(src) && !isAdminGhostAI(user))
 		balloon_alert(user, "too far!")
 		return
