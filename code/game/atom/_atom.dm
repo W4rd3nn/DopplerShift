@@ -860,6 +860,8 @@
 	if (isnull(user))
 		return
 
+	user.MouseEnteredOnCheap(src)
+
 	if(user.face_mouse) // DOPPLER SHIFT ADDITION
 		user.face_atom(src) // DOPPLER SHIFT ADDITION
 

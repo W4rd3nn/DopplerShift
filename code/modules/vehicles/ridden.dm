@@ -39,6 +39,7 @@
 	if(inserted_key) //just in case there's an invalid key
 		inserted_key.forceMove(drop_location())
 	inserted_key = I
+	on_key_inserted()
 
 /obj/vehicle/ridden/click_alt(mob/user)
 	if(!inserted_key)
@@ -50,6 +51,7 @@
 	inserted_key.forceMove(drop_location())
 	user.put_in_hands(inserted_key)
 	inserted_key = null
+	key_removed()
 	return CLICK_ACTION_SUCCESS
 
 /obj/vehicle/ridden/user_buckle_mob(mob/living/M, mob/user, check_loc = TRUE)
@@ -70,3 +72,9 @@
 /obj/vehicle/ridden/zap_act(power, zap_flags)
 	zap_buckle_check(power)
 	return ..()
+
+/obj/vehicle/ridden/proc/on_key_inserted()
+	return
+
+/obj/vehicle/ridden/proc/key_removed()
+	return
