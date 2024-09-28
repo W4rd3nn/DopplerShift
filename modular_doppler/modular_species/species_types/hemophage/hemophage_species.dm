@@ -7,8 +7,6 @@
 	id = SPECIES_HEMOPHAGE
 	preview_outfit = /datum/outfit/hemophage_preview
 	inherent_traits = list(
-		TRAIT_ADVANCEDTOOLUSER,
-		TRAIT_CAN_STRIP,
 		TRAIT_NOHUNGER,
 		TRAIT_NOBREATH,
 		TRAIT_OXYIMMUNE,
@@ -98,11 +96,18 @@
 
 /datum/outfit/hemophage_preview
 	name = "Hemophage (Species Preview)"
-	uniform = /obj/item/clothing/under/dress/doppler/pentagram
+	uniform = /obj/item/clothing/under/suit/black_really/skirt
 
 /datum/species/genemod/hemophage/prepare_human_for_preview(mob/living/carbon/human/human)
 	human.dna.features["mcolor"] = skintone2hex("albino")
-	human.hair_color = "#3D292D"
+	human.dna.features["horns"] = "Lifted"
+	human.dna.features["horns_color_1"] = "#52435e"
+	human.dna.ear_type = HUMANOID
+	human.dna.features["ears"] = "Elf (wide)"
+	human.dna.features["ears_color_1"] = "#F7D1C3"
+	human.hair_color = "#f1cc9c"
+	human.lip_style = "lipstick"
+	human.lip_color = COLOR_BLACK
 	human.hairstyle = "Long Gloomy Bangs"
 	regenerate_organs(human, src, visual_only = TRUE)
 	human.update_body(TRUE)

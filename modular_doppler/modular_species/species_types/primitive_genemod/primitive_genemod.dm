@@ -13,7 +13,7 @@
 	selected_language = /datum/language/primitive_genemod
 
 /datum/species/genemod/primitive
-	name = "Primitive Gene-Mod"
+	name = "Hearthkin"
 	id = SPECIES_GENEMOD_PRIMITIVE
 	preview_outfit = /datum/outfit/genemod_primitive_preview
 
