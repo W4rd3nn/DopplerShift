@@ -38,7 +38,7 @@
 	human_for_preview.dna.features["ears_color_2"] = "#F4B1C8"
 	human_for_preview.set_haircolor("#3a2d22", update = FALSE)
 	human_for_preview.set_hairstyle("Short twintails", update = TRUE)
-	human_for_preview.dna.features["mcolor"] = "#725547"
+	human_for_preview.dna.features["mcolor"] = skintone2hex("mixed3")
 	human_for_preview.eye_color_left = "#442B12"
 	human_for_preview.eye_color_right = "#442B12"
 	regenerate_organs(human_for_preview)

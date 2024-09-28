@@ -19,6 +19,9 @@
 	. = ..()
 	/// Weirdness Check Zone: kill incorrect tails
 	if(randomize_features)
+		if(species.id != /datum/species/genemod)
+			var/skin_tone = pick(GLOB.skin_tones)
+			features["mcolor"] = skintone2hex(skin_tone)
 		if(species.id != /datum/species/human/felinid::id)
 			features["tail_cat"] = /datum/sprite_accessory/tails/human/none::name
 			features["ears"] = /datum/sprite_accessory/ears/none::name
