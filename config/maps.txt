@@ -57,6 +57,13 @@ map wawastation
 	minplayers 40
 endmap
 
+# Doppler maps
+
+map ninelivespromenade
+	default
+	votable
+endmap
+
 # Debug-only maps.
 
 map gateway_test

@@ -16,6 +16,9 @@
 		#include "map_files\NebulaStation\NebulaStation.dmm"
 		#include "map_files\wawastation\wawastation.dmm"
 
+//DOPPLER MAPS
+		#include "map_files\NineLivesPromenade\NineLivesPromenade.dmm"
+
 		#ifdef CIBUILDING
 			#include "templates.dm"
 		#endif
