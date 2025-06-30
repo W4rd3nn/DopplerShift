@@ -97,7 +97,7 @@
 	desc = "Nambūni is the language spoken by most Nambūlites and by extension Deep Spacers. It has no known origin, though it superficially resembles some Austronesian and Khoisan languages in grammatical and phonetic structure despite predating human spaceflight. There are countless dialects, pidgins, and creoles spread throughout the thousands of micronations that compose the greater Nambūni Assembly, making the language a difficult one to master. As it is the official language of the Assembly, it is mandated that all prayer, diplomacy, and trade must be conducted in Nambūni, thus learning the language is one of the greatest hurdles outsider merchants face."
 	key = "N"
 	flags = TONGUELESS_SPEECH
-	space_chance = 40
+	space_chance = 30
 	syllables = list (
 		"se", "tiap", "ora", "nga", "nge", "ngi", "ngo", "ngū", "ang", "eng", "ing", "ong", "ung", "ach",
 		"ech", "ich", "och", "uch", "ych", "basei", "gehi", "nam", "nem", "nim", "nom", "nūm", "da", "de", "di",
